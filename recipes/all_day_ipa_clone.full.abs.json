@@ -1,0 +1,93 @@
+{
+    "id": "fab5893a-3816-41f5-8e63-ee0d4c189762",
+
+    "name": "All Day IPA clone",
+    "source": "https://www.beeradvocate.com/community/threads/founders-all-day-ipa-clone.198607/",
+
+    "style": "bjcp:21A",
+
+    "batchVolume": 21,
+    "abv": 0.0478,
+    "og": 1.047,
+    "fg": 1.010,
+    "ibu": 46,
+    "ebc": 13.4,
+
+
+    "fermentation": {
+        "primary": {
+            "temperature": [18, 20],
+            "time": 14
+        }
+    },
+
+    "mashing": [
+        {
+            "temperature": 67,
+            "time": 60
+        }
+    ],
+
+    "fermentables": [
+        {
+            "name": "Pale 2-row",
+            "weight": 3400
+        },
+        {
+            "name": "Crystal/caramel",
+            "color": 50,
+            "weight": 900
+        }
+    ],
+
+    "hops": [
+        {
+            "name": "Cascade",
+            "weight": 21,
+            "time": 60,
+            "aa": 0.068
+        },
+        {
+            "name": "Amarillo",
+            "weight": 56,
+            "time": 5,
+            "aa": 0.084
+        },
+        {
+            "name": "Centennial",
+            "weight": 56,
+            "time": 15,
+            "aa": 0.085
+        },
+        {
+            "name": "Cascade",
+            "weight": 7,
+            "time": 15,
+            "aa": 0.068
+
+        },
+
+        {
+            "name": "Centennial",
+            "weight": 28,
+            "time": 4,
+            "aa": 0.068,
+            "dry_hop": true
+        },
+        {
+            "name": "Amarillo Gold",
+            "weight": 28,
+            "time": 4,
+            "aa": 0.068,
+            "dry_hop": true
+        }
+    ],
+
+    "yeasts": [
+        {
+            "name": "California Ale",
+            "id": "WLP001",
+            "producer": "White Labs"
+        }
+    ]
+}
